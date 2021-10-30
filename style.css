@@ -1,0 +1,36 @@
+th,td{
+    border: 2px solid black;
+  }
+  td,th{
+    padding: 10px;
+    text-align:center;
+  }
+  .next-button{
+     height: 100px;
+     width: 100px;
+     background-color : black;
+  }
+  .prev-button{
+     height: 100px;
+     width: 100px;
+      background-color : red;
+  }
+  
+  tr:first-child th {
+    border-top-right-radius : 20px;
+    border-top-left-radius : 20px;
+    background-color : lightblue;
+    border-color : transparent;
+  }
+  tr th {
+     box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2); 
+    cursor: pointer; 
+    border:transparent;
+    background-color :lightgrey;
+    color:#3d3d3d;
+  }
+  tr td{
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2); 
+    cursor: pointer; 
+    border:transparent;
+  }
